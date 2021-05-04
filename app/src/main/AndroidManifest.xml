@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pt.pfc.a5gmonservice">
+    package="pt.pfc.mon5gservice">
 
     <application
         android:allowBackup="true"
@@ -11,11 +11,11 @@
         android:theme="@style/AppTheme">
 
         <service
-            android:name=".LocalService"
+            android:name="pt.pfc.mon5gservice.LocalService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".BindingActivity">
+        <activity android:name="pt.pfc.mon5gservice.BindingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

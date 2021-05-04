@@ -1,4 +1,4 @@
-package pt.pfc.a5gmonservice;
+package pt.pfc.mon5gservice;
 
 import android.content.Context;
 import android.util.Log;

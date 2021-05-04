@@ -1,4 +1,4 @@
-package pt.pfc.a5gmonservice;
+package pt.pfc.mon5gservice;
 
 import org.junit.Test;
 
